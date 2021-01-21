@@ -15,7 +15,14 @@ function navtabAbout() {
     b.style.background="none";
     c.style.background="none";
     d.style.background="none";
-
+    var e = document.getElementById("about");
+    var f = document.getElementById("skill");
+    var g = document.getElementById("project");
+    var h = document.getElementById("education");
+    e.style.display = "block";
+    f.style.display = "none";
+    g.style.display = "none";
+    h.style.display = "none";
 }
 function navtabSkills() {
     var a = document.getElementById("navAbout");
@@ -26,6 +33,14 @@ function navtabSkills() {
     b.style.background="white";
     c.style.background="none";
     d.style.background="none";
+    var e = document.getElementById("about");
+    var f = document.getElementById("skill");
+    var g = document.getElementById("project");
+    var h = document.getElementById("education");
+    e.style.display = "none";
+    f.style.display = "block";
+    g.style.display = "none";
+    h.style.display = "none";
 }
 function navtabProjects() {
     var a = document.getElementById("navAbout");
@@ -36,6 +51,14 @@ function navtabProjects() {
     b.style.background="none";
     c.style.background="white";
     d.style.background="none";
+    var e = document.getElementById("about");
+    var f = document.getElementById("skill");
+    var g = document.getElementById("project");
+    var h = document.getElementById("education");
+    e.style.display = "none";
+    f.style.display = "none";
+    g.style.display = "block";
+    h.style.display = "none";
 }
 function navtabEducation() {
     var a = document.getElementById("navAbout");
@@ -46,4 +69,12 @@ function navtabEducation() {
     b.style.background="none";
     c.style.background="none";
     d.style.background="white";
+    var e = document.getElementById("about");
+    var f = document.getElementById("skill");
+    var g = document.getElementById("project");
+    var h = document.getElementById("education");
+    e.style.display = "none";
+    f.style.display = "none";
+    g.style.display = "none";
+    h.style.display = "block";
 }
