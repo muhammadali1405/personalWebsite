@@ -79,3 +79,6 @@ function navtabEducation() {
     h.style.display = "grid";
 }
 
+
+
+/**/ 

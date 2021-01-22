@@ -46,6 +46,7 @@
 }
 .about{
     margin: 80px 0 0 20px;
+    animation: fadeIn 0.75s;
     
 }
 .nameAbout{
@@ -65,7 +66,7 @@
 }
 .education{
   margin: 80px 0 0 20px;
-  
+  animation: fadeIn 0.75s;  
   display: table;
 }
 .dot{
@@ -166,6 +167,7 @@ margin: 100px 0 0 40px;
 .skillGraph{
   display: flex;
   width: 850px;
+  animation: fadeIn 0.75s;
 }
 .yaxis{
   width: 120px;
@@ -223,11 +225,29 @@ margin: 100px 0 0 40px;
   font-weight: 700;
 }
 .html{
-  margin: 50px 0 0 80px;
+  margin: 40px 0 0 80px;
   font-weight: 700;
 }
 
 /*  Ending Skill Graph  */
+
+
+/*  START  transition of skill graph*/
+
+@keyframes fadeIn {
+ from {
+  opacity: 0;
+  transform: rotateX(-10deg);
+ }
+
+ to{
+  opacity: 1;
+  transform: rotateX(0);
+ }
+}
+
+/* ENDS  transition of skill graph*/
+
 
 @font-face {
   font-family: "icomoon";
@@ -364,9 +384,3 @@ a:hover {
 
     color: rgb(6, 5, 70);
 }
-
-
-
-
-
-
