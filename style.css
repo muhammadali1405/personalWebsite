@@ -49,12 +49,14 @@
     
 }
 .nameAbout{
-
     font-size: 45px;
     font-family: 'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
     font-weight: 700;
     text-transform: uppercase;
 
+}
+#navAbout{
+  background: white;
 }
 .college{
   font-size: 45px;
@@ -186,7 +188,7 @@ margin: 100px 0 0 40px;
   display: flex;
   border-bottom: solid 2px;
 }
-.c, .git, .python, .javascript, .nodejs, .css, .html{
+.c, .git, .python, .javascript, .nodejs, .css, .html, .photoshop{
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -194,24 +196,35 @@ margin: 100px 0 0 40px;
   margin: 330px 0 0 80px;
   padding-top: 10px;
   text-align: center;
+  font-weight: 300;
+}
+.photoshop{
+  margin: 260px 0 0 50px;
+  font-weight: 300;
 }
 .git{
   margin: 250px 0 0 80px;
+  font-weight: 400;
 }
 .python{
   margin: 220px 0 0 80px;
+  font-weight: 500;
 }
 .javascript{
   margin: 200px 0 0 80px;
+  font-weight: 600;
 }
 .nodejs{
   margin: 150px 0 0 80px;
+  font-weight: 600;
 }
 .css{
   margin: 50px 0 0 80px;
+  font-weight: 700;
 }
 .html{
   margin: 50px 0 0 80px;
+  font-weight: 700;
 }
 
 /*  Ending Skill Graph  */
