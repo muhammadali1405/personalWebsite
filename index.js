@@ -76,6 +76,6 @@ function navtabEducation() {
     e.style.display = "none";
     f.style.display = "none";
     g.style.display = "none";
-    h.style.display = "block";
+    h.style.display = "grid";
 }
 
