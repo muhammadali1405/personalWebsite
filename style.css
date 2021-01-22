@@ -85,6 +85,10 @@
 .graduate{
   width: 80px;
 }
+ul{
+  padding-inline-start: 0;
+
+}
 /*   skill bar starts    */
 #skill
 {
