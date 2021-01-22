@@ -78,3 +78,4 @@ function navtabEducation() {
     g.style.display = "none";
     h.style.display = "block";
 }
+
