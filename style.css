@@ -91,6 +91,7 @@ ul{
 
 }
 /*   skill bar starts    */
+/*
 #skill
 {
   width: 550px;
@@ -165,6 +166,7 @@ ul{
 .bar.expert::before{
   width: calc(100% - 10px);
 }
+*/
 
 /*   skill bar ends    */
 
